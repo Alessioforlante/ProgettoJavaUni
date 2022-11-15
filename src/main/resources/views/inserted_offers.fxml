@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.univaq.disim.oop.croissantmanager.controller.InsertedOffersController">
+   <children>
+      <Label alignment="CENTER" prefHeight="58.0" prefWidth="600.0" text="Offerte Inserite">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <Shadow />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" prefHeight="58.0" prefWidth="600.0" text="Offerte Inserite" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TableView fx:id="insertedOffersTable" layoutY="57.0" prefHeight="303.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="settoreColumn" prefWidth="91.0" text="Settore" />
+          <TableColumn fx:id="salarioColumn" prefWidth="84.0" text="Salario" />
+            <TableColumn fx:id="dataColumn" prefWidth="107.0" text="Data" />
+            <TableColumn fx:id="azioniColumn" prefWidth="317.0" text="Azioni" />
+        </columns>
+      </TableView>
+      <Label fx:id="errorLabel" alignment="CENTER" layoutY="360.0" prefHeight="42.0" prefWidth="600.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

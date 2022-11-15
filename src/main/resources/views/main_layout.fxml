@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane id="border-pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="654.0" prefWidth="1158.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.univaq.disim.oop.croissantmanager.controller.LayoutController">
+   <top>
+      <AnchorPane prefHeight="83.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="14.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Croissant Manager" textAlignment="CENTER" wrappingWidth="435.721923828125">
+               <font>
+                  <Font name="Segoe UI Black" size="42.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Text>
+            <Text fill="WHITE" layoutX="14.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Croissant Manager" textAlignment="CENTER" wrappingWidth="435.721923828125">
+               <font>
+                  <Font name="Segoe UI Black" size="42.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Text>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="161.0" prefWidth="1139.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox fx:id="buttonsHBox" alignment="CENTER" layoutX="33.0" layoutY="-3.0" prefHeight="116.0" prefWidth="1126.0" spacing="60.0" />
+            <Text layoutX="14.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Progetto di LPO 2020  di Luca Di Donato, Alessio Forlante e Gaia Flammini. ">
+               <font>
+                  <Font name="Segoe UI Black" size="20.0" />
+               </font>
+               <effect>
+                  <Shadow />
+               </effect>
+            </Text>
+            <Text fill="WHITE" layoutX="14.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Progetto di LPO 2020  di Luca Di Donato, Alessio Forlante e Gaia Flammini. ">
+               <font>
+                  <Font name="Segoe UI Black" size="20.0" />
+               </font>
+            </Text>
+            <Label fx:id="errorLabel1" layoutX="829.0" layoutY="134.0">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+               <effect>
+                  <Shadow />
+               </effect>
+            </Label>
+            <Label fx:id="errorShadowLabel1" layoutX="829.0" layoutY="134.0" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

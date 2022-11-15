@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.univaq.disim.oop.croissantmanager.controller.WelcomeController">
+   <children>
+      <Label fx:id="welcomeLabelS" alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="138.0" prefHeight="122.0" prefWidth="490.0">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+         <effect>
+            <Shadow />
+         </effect>
+      </Label>
+      <Label fx:id="welcomeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="138.0" prefHeight="122.0" prefWidth="490.0" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

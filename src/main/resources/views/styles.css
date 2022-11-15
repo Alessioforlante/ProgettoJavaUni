@@ -1,0 +1,6 @@
+#borderpane {
+    -fx-background-image: url("main_layout_image2.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1158.0 654.0;
+    -fx-background-position: center center;
+}

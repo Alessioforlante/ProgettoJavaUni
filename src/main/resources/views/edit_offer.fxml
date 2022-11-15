@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="844.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.univaq.disim.oop.croissantmanager.controller.EditOfferController">
+   <children>
+      <ImageView fitHeight="30.0" fitWidth="164.0" layoutX="296.0" layoutY="198.0" opacity="0.18">
+         <image>
+            <Image url="@shadow_2.png" />
+         </image>
+         <effect>
+            <Shadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="164.0" layoutX="296.0" layoutY="149.0" opacity="0.18">
+         <image>
+            <Image url="@shadow_2.png" />
+         </image>
+         <effect>
+            <Shadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="164.0" layoutX="296.0" layoutY="97.0" opacity="0.18">
+         <image>
+            <Image url="@shadow_2.png" />
+         </image>
+         <effect>
+            <Shadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="328.0" fitWidth="281.0" layoutX="510.0" layoutY="30.0" opacity="0.18">
+         <image>
+            <Image url="@shadow_2.png" />
+         </image>
+         <effect>
+            <Shadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="157.0" layoutX="224.0" layoutY="311.0" opacity="0.18">
+         <image>
+            <Image url="@shadow_2.png" />
+         </image>
+         <effect>
+            <Shadow />
+         </effect>
+      </ImageView>
+      <TextField fx:id="localitaTextField" layoutX="300.0" layoutY="100.0">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="settoreTextField" layoutX="300.0" layoutY="152.0">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="salarioTextField" layoutX="300.0" layoutY="200.0">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></TextField>
+      <Label layoutX="90.0" layoutY="106.0" text="Località">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+         <effect>
+            <Shadow />
+         </effect>
+      </Label>
+      <Label layoutX="89.0" layoutY="158.0" text="Settore">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+         <effect>
+            <Shadow />
+         </effect>
+      </Label>
+      <Label layoutX="90.0" layoutY="206.0" text="Salario">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+         <effect>
+            <Shadow />
+         </effect>
+      </Label>
+      <Label layoutX="90.0" layoutY="105.0" text="Località" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Label>
+      <Label layoutX="89.0" layoutY="157.0" text="Settore" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Label>
+      <Label layoutX="90.0" layoutY="205.0" text="Salario" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Label>
+      <Button fx:id="applicaButton" cancelButton="true" layoutX="228.0" layoutY="313.0" mnemonicParsing="false" onAction="#applicaButtonAction" prefHeight="42.0" prefWidth="146.0" text="Applica modifiche">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="237.0" layoutY="35.0" prefHeight="32.0" prefWidth="127.0" text="Inserisci Offerta">
+         <font>
+            <Font name="Verdana" size="13.0" />
+         </font>
+         <effect>
+            <Shadow />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="236.0" layoutY="35.0" prefHeight="32.0" prefWidth="127.0" text="Inserisci Offerta" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="13.0" />
+         </font>
+      </Label>
+      <ListView fx:id="competenzeListView" layoutX="514.0" layoutY="35.0" prefHeight="319.0" prefWidth="273.0" />
+      <Label fx:id="errorLabel" layoutX="295.0" layoutY="272.0">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+         <effect>
+            <Shadow />
+         </effect>
+      </Label>
+      <Label fx:id="errorShadowLabel" layoutX="295.0" layoutY="271.0" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorLabel1" layoutX="305.0" layoutY="282.0">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+         <effect>
+            <Shadow />
+         </effect>
+      </Label>
+      <Label fx:id="errorShadowLabel1" layoutX="305.0" layoutY="281.0" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
